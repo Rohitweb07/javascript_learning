@@ -28,3 +28,7 @@ for (let key in person) {
 for (let key of Object.keys(person)) {
   console.log(person[key]);
 }
+
+for (let key in Object(person)) {
+  console.log(person[key]);
+}
