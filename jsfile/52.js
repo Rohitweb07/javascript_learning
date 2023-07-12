@@ -17,6 +17,7 @@ const addtoCart = [
   { product_id: 201, product_name: "shirt", price: 22000 },
   { product_id: 301, product_name: "T-shirt", price: 32000 },
   { product_id: 401, product_name: "cap", price: 34000 },
+  { product_id: 501, product_name: "cart", price: 4900 },
 ];
 
 const res = addtoCart.reduce((totalprice, currentproductPrice) => {
